@@ -1,0 +1,4 @@
+3
+cpf|nome|idade|
+int|string|int|12345|pedro|12|
+2222 |pe|2|

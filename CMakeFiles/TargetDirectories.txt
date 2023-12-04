@@ -1,0 +1,4 @@
+C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/CMakeFiles/mylib.dir
+C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/CMakeFiles/main.dir
+C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/CMakeFiles/edit_cache.dir
+C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/CMakeFiles/rebuild_cache.dir

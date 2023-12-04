@@ -1,0 +1,92 @@
+[
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\funcs\\apagaLinha.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\funcs\\apagaLinha.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/apagaLinha.c",
+  "output": "CMakeFiles/mylib.dir/funcs/apagaLinha.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\funcs\\apagaTabela.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\funcs\\apagaTabela.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/apagaTabela.c",
+  "output": "CMakeFiles/mylib.dir/funcs/apagaTabela.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\funcs\\criaLinha.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\funcs\\criaLinha.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/criaLinha.c",
+  "output": "CMakeFiles/mylib.dir/funcs/criaLinha.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\funcs\\criaTabela.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\funcs\\criaTabela.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/criaTabela.c",
+  "output": "CMakeFiles/mylib.dir/funcs/criaTabela.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\funcs\\listaDadosTabela.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\funcs\\listaDadosTabela.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/listaDadosTabela.c",
+  "output": "CMakeFiles/mylib.dir/funcs/listaDadosTabela.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\funcs\\listaTabelas.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\funcs\\listaTabelas.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/listaTabelas.c",
+  "output": "CMakeFiles/mylib.dir/funcs/listaTabelas.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\funcs\\pesquisaValor.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\funcs\\pesquisaValor.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/pesquisaValor.c",
+  "output": "CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\contaLinhas.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\contaLinhas.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/contaLinhas.c",
+  "output": "CMakeFiles/mylib.dir/utils/contaLinhas.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\criaTabelaArquivo.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\criaTabelaArquivo.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/criaTabelaArquivo.c",
+  "output": "CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\main.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\main.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/main.c",
+  "output": "CMakeFiles/mylib.dir/utils/main.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\mostraMenu.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\mostraMenu.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/mostraMenu.c",
+  "output": "CMakeFiles/mylib.dir/utils/mostraMenu.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\validaChavePrimaria.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\validaChavePrimaria.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaChavePrimaria.c",
+  "output": "CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\validaStringTipo.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\validaStringTipo.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaStringTipo.c",
+  "output": "CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\validaTabela.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\validaTabela.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaTabela.c",
+  "output": "CMakeFiles/mylib.dir/utils/validaTabela.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\utils\\main.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\main.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/main.c",
+  "output": "CMakeFiles/main.dir/utils/main.c.obj"
+}
+]
