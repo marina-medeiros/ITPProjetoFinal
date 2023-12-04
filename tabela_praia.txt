@@ -1,9 +1,0 @@
-3
-cep|nome|carro|
-int|string|int|
-59064520 |praiadosbros|2|
-12345 |praia dos bros|123|
-6422008 |8|w|
-0 |marina|3|
-0 |cagado|3|
-123 |pn|0|
