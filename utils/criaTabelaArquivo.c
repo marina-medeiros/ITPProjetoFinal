@@ -24,7 +24,8 @@ void criaTabelaArquivo(Tabela novaTabela, Coluna *arrayColunas){
 
     char path[60];
 
-    strcpy(path, novaTabela.nome);
+    strcpy(path, "tabelasIndividuais/");
+    strcat(path, novaTabela.nome);
     strcat(path, ".txt");
 
     FILE *table = fopen(path, "w");

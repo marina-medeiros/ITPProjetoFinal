@@ -7,5 +7,6 @@ int validaTabela();
 int validaStringTipo();
 int contaLinhas();
 int validaChavePrimaria();
+int pegaStrlen();
 
 #endif

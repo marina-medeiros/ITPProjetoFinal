@@ -27,7 +27,10 @@ CMakeFiles/mylib.dir/funcs/apagaTabela.c.obj: funcs/apagaTabela.c \
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
+  heading/functions.h \
+  heading/utils.h
 
 CMakeFiles/mylib.dir/funcs/criaLinha.c.obj: funcs/criaLinha.c \
   C:/MinGW/include/_mingw.h \
@@ -75,7 +78,10 @@ CMakeFiles/mylib.dir/funcs/listaDadosTabela.c.obj: funcs/listaDadosTabela.c \
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
+  heading/functions.h \
+  heading/utils.h
 
 CMakeFiles/mylib.dir/funcs/listaTabelas.c.obj: funcs/listaTabelas.c \
   C:/MinGW/include/_mingw.h \
@@ -168,6 +174,23 @@ CMakeFiles/mylib.dir/utils/mostraMenu.c.obj: utils/mostraMenu.c \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   heading/utils.h
 
+CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj: utils/pagaStrlen.c \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
+  C:/MinGW/include/strings.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/include/wchar.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
+  heading/functions.h \
+  heading/utils.h
+
 CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: utils/validaChavePrimaria.c \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/msvcrtver.h \
@@ -253,11 +276,13 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h:
 
-funcs/criaLinha.c:
-
 heading/definitions.h:
 
 heading/utils.h:
+
+utils/pagaStrlen.c:
+
+funcs/criaLinha.c:
 
 funcs/listaTabelas.c:
 

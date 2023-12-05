@@ -20,7 +20,7 @@ void criaTabela(){
     scanf("%[^\n]", novaTabela.nome);
 
     if(validaTabela(novaTabela.nome) == 1){
-        printf("Ops! Parece que já existe uma tabela com o nome %s!\n", novaTabela.nome);
+        printf("Ops! Já existe uma tabela com o nome %s!\n", novaTabela.nome);
         printf("----------------------------------------\n");
         return;
     }else{
@@ -43,7 +43,7 @@ void criaTabela(){
             arrayColunas = realloc(arrayColunas, sizeof(Coluna) * (qtdColunas + 1));
 
             while ((c = getchar()) != '\n' && c != EOF) {}
-            scanf("%[^\n]", entradaCol);
+            scanf("%[^\n]", entradaCol);  
 
             strcpy(tipo, strtok(entradaCol, " "));
 
@@ -51,6 +51,7 @@ void criaTabela(){
                 printf("Ops! O tipo inserido não é válido!\n");
                 printf("----------------------------------\n");
                 return;
+                break;
             }
             else{
 

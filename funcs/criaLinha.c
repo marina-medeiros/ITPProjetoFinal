@@ -23,7 +23,8 @@ void criaLinha(){
         printf("----------------------------------------\n");
         return;
     }else{
-        strcpy(path, nomeTabela);
+        strcpy(path, "tabelasIndividuais/");
+        strcat(path, nomeTabela);
         strcat(path, ".txt");
 
         FILE *table = fopen(path, "r");
@@ -63,11 +64,13 @@ void criaLinha(){
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", entrada);
 
-        printf("lixo1: %10s", entrada);
+        if(validaChavePrimaria(nomeTabela, entrada) == 0){
+            printf("Ops! Já existe um registro com a mesma chave primária na tabela %s!\n", nomeTabela);
+            printf("----------------------------------------\n");
+            return;
+        }
 
-        //printf("xxx %d\n", validaChavePrimaria(nomeTabela, entrada));
-
-        fprintf(tableA, "%s |", entrada); //espaço dps da chve primária para facilitar na hora de pegar esse valor
+        fprintf(tableA, "%s|", entrada); //espaço dps da chve primária para facilitar na hora de pegar esse valor
 
         for(int i = 1; i < qtdColunas; i++){
             printf("Insira um valor de tipo %s para a coluna '%s'\n", colunasTabela[i].tipo, colunasTabela[i].nome);

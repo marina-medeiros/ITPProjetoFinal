@@ -1,0 +1,9 @@
+5
+id|nome|apelido|idade|altura|
+int|string|string|int|double|
+0|Marina Leite|Mari|19|1.55|
+1|Sebasti�o Jr.|Bastinho|54|1.68|
+2|Maria Ant�nia|Toni|21|1.60|
+3|Ana|A|52|1.55|
+4|Fernanda A.|Nanda|23|1.54|
+5|Osair|Oswald|60+|1.70|

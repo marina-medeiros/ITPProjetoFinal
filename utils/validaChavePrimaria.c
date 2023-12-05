@@ -5,19 +5,17 @@
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
-//NÃO FUNCIONA!!!!!!!
-
 int validaChavePrimaria(char *nomeTabela, char *pkEntrada){
     char path[40];
-    char lixo[30];
-    //int pkEntrada = atoi(pkString);
+    char linha[200];
     char pkLida[30];
     int c, pk;
 
-    strcpy(path, nomeTabela);
+    strcpy(path, "tabelasIndividuais/");
+    strcat(path, nomeTabela);
     strcat(path, ".txt");
 
-    int qtdRegistros = contaLinhas(path) - 3;
+    int qtdLinhas = contaLinhas(path);
 
     FILE *file = fopen(path, "r");
           
@@ -26,28 +24,12 @@ int validaChavePrimaria(char *nomeTabela, char *pkEntrada){
         return -1;
     }
 
-    //lê as 3 primeiras linhas da tabela
-    while ((c = getchar()) != '\n' && c != EOF) {}
-    fscanf(file, "%[^\n]", lixo);
-    printf("lixo1: %s\n", lixo);
-    while ((c = getchar()) != '\n' && c != EOF) {}
-    fscanf(file, "%[^\n]", lixo);
-    printf("lixo2: %s\n", lixo);
-    while ((c = getchar()) != '\n' && c != EOF) {}
-    fscanf(file, "%[^\n]", lixo);
-    printf("lixo3: %s\n", lixo);
+    for(int i = 0; i < qtdLinhas; i++){
+        fgets(linha, 200, file);
+        strcpy(pkLida, strtok(linha, "|"));
 
-    for(int i = 0; i < qtdRegistros; i++){
-        while ((c = getchar()) != '\n' && c != EOF) {}
-        fscanf(file, "%[^\n]", lixo);
-        printf("lixo4: %s\n", lixo);
-        strcpy(pkLida, strtok(lixo, "|"));
-
-        printf("Chave lida: %s\n", pkLida);
-
-        if(strcmp(pkLida, pkEntrada) == 0){
+        if(i > 2 && strcmp(pkLida, pkEntrada) == 0){
             return 0; //chave inválida
-            break;
         }
     }
 

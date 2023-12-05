@@ -408,6 +408,30 @@ utils/mostraMenu.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/mostraMenu.c.s
 .PHONY : utils/mostraMenu.c.s
 
+utils/pagaStrlen.obj: utils/pagaStrlen.c.obj
+.PHONY : utils/pagaStrlen.obj
+
+# target to build an object file
+utils/pagaStrlen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj
+.PHONY : utils/pagaStrlen.c.obj
+
+utils/pagaStrlen.i: utils/pagaStrlen.c.i
+.PHONY : utils/pagaStrlen.i
+
+# target to preprocess a source file
+utils/pagaStrlen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/pagaStrlen.c.i
+.PHONY : utils/pagaStrlen.c.i
+
+utils/pagaStrlen.s: utils/pagaStrlen.c.s
+.PHONY : utils/pagaStrlen.s
+
+# target to generate assembly for a file
+utils/pagaStrlen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/pagaStrlen.c.s
+.PHONY : utils/pagaStrlen.c.s
+
 utils/validaChavePrimaria.obj: utils/validaChavePrimaria.c.obj
 .PHONY : utils/validaChavePrimaria.obj
 
@@ -523,6 +547,9 @@ help:
 	@echo ... utils/mostraMenu.obj
 	@echo ... utils/mostraMenu.i
 	@echo ... utils/mostraMenu.s
+	@echo ... utils/pagaStrlen.obj
+	@echo ... utils/pagaStrlen.i
+	@echo ... utils/pagaStrlen.s
 	@echo ... utils/validaChavePrimaria.obj
 	@echo ... utils/validaChavePrimaria.i
 	@echo ... utils/validaChavePrimaria.s

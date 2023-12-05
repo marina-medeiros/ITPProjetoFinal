@@ -36,13 +36,24 @@ int main(){
             break;
         
             
-            //case 4: listaDadosTabela(); break;
+            case 4: 
+                printf("----------------------------------------\n");
+                printf("Você escolheu: 4. Listar todos os dados de uma tabela\n");
+                printf("----------------------------------------\n");
+                listaDadosTabela();
+            break;
             
             //case 5: pesquisaValor(); break;
-            
+
             //case 6: apagaLinha(); break;
             
-            //case 7: apagaTabela(); break;
+            case 7: 
+                printf("----------------------------------------\n");
+                printf("Você escolheu: 7. Apagar uma tabela\n");
+                printf("----------------------------------------\n");
+                apagaTabela();
+            break;
+            
             
             case 8: continuar = 0; break;
 
