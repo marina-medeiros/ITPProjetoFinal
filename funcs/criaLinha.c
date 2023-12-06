@@ -7,7 +7,7 @@
 #include "../heading/definitions.h"
 
 void criaLinha(){
-    char nomeTabela[30];
+    char nomeTabela[50];
     char path[60];
     char aux[100];
     char entrada[30];

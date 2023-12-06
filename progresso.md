@@ -11,7 +11,7 @@
 ([v])Confere se o nome do tipo está correto --> Dá pra melhorar
 ([ ])Valida tipo --> Acho q n precisa
 
-### 2. Listar todas as tabelas: OK!
+### 2. Listar todas as tabelas
 ([x])Lista todas as tabelas do doc tabelas.txt
 
 ### 3. Criar uma nova linha na tabela
@@ -29,9 +29,9 @@
 ([ ])Confere se a tabela existe
 
 ### 7. Apagar uma tabela
-([ ])Confere se a tabela existe
-([ ])Apaga linha do arquivo "tabelas.txt"
-([ ])Apaga arquivo da tabela
+([x])Confere se a tabela existe
+([x])Apaga linha do arquivo "tabelas.txt"
+([x])Apaga arquivo da tabela
 
 ### 8. Sair
 ([x])Funciona

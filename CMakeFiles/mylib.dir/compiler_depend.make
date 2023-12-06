@@ -13,7 +13,10 @@ CMakeFiles/mylib.dir/funcs/apagaLinha.c.obj: funcs/apagaLinha.c \
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
+  heading/functions.h \
+  heading/utils.h
 
 CMakeFiles/mylib.dir/funcs/apagaTabela.c.obj: funcs/apagaTabela.c \
   C:/MinGW/include/_mingw.h \

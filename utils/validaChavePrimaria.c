@@ -29,9 +29,9 @@ int validaChavePrimaria(char *nomeTabela, char *pkEntrada){
         strcpy(pkLida, strtok(linha, "|"));
 
         if(i > 2 && strcmp(pkLida, pkEntrada) == 0){
-            return 0; //chave inválida
+            return 0; //A chave já foi registrada
         }
     }
 
-    return 1; //chave válida
+    return 1; //A chave ainda não foi registrada
 }

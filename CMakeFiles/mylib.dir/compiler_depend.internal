@@ -15,6 +15,9 @@ CMakeFiles/mylib.dir/funcs/apagaLinha.c.obj
  C:/MinGW/include/wchar.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+ C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/definitions.h
+ C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/functions.h
+ C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/utils.h
 
 CMakeFiles/mylib.dir/funcs/apagaTabela.c.obj
  C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/apagaTabela.c

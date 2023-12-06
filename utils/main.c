@@ -45,7 +45,12 @@ int main(){
             
             //case 5: pesquisaValor(); break;
 
-            //case 6: apagaLinha(); break;
+            case 6: 
+                printf("----------------------------------------\n");
+                printf("Você escolheu: 6. Apagar uma linha\n");
+                printf("----------------------------------------\n"); 
+                apagaLinha();    
+            break;
             
             case 7: 
                 printf("----------------------------------------\n");
