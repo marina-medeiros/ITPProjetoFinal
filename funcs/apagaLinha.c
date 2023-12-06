@@ -10,7 +10,7 @@ void apagaLinha(){
     char nomeTabela[50];
     char path[60];
     char pkEntrada[30], pkLida[30];
-    char linha[200], linhaApagar[200];
+    char linhaAux[200], linhaApagar[200];
     int c, qtdLinhas;
 
     printf("Insira o nome da tabela que contém a linha a ser apagada:");
@@ -39,18 +39,15 @@ void apagaLinha(){
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", pkEntrada);
 
-        printf("ok\n");
 
         if(validaChavePrimaria(nomeTabela, pkEntrada) == 1){
             printf("Ops! Não existe um registro com essa chave primária na tabela %s\n", nomeTabela);
             return;
-        }else{
-            printf("a pk está ok\n");
         }
 
-        printf("ok3\n");
-
         qtdLinhas = (contaLinhas(path));
+
+        printf("%d", qtdLinhas);
 
         char linhasTab[qtdLinhas][200];
 
@@ -61,11 +58,17 @@ void apagaLinha(){
             return;
         }
 
-        printf("ok3\n");
-
         for(int i = 0; i < qtdLinhas; i++){
-            fscanf(tabela, "%s", linhasTab[i]); //agora o vetor linhas tem o conteúdo da tabela em questão
-            printf("zz %s\n", linhasTab[i]);
+            fgets(linhasTab[i], 200, tabela); //agora o vetor linhas tem o conteúdo da tabela em questão
+            strcpy(linhaAux, linhasTab[i]);
+
+            if(i > 2){
+                strcpy(pkLida, strtok(linhaAux, "|"));
+
+                if(strcmp(pkLida, pkEntrada) == 0){
+                    strcpy(linhaApagar, linhasTab[i]);
+                }
+            }
         }
 
         fclose(tabela);
@@ -78,20 +81,9 @@ void apagaLinha(){
         }
 
         for(int i = 0; i < qtdLinhas; i++){
-            fgets(linha, 200, tabelasNovo);
-            strcpy(pkLida, strtok(linha, "|"));
-            printf("num %s\n", pkLida);
-
-            if(i > 2 && strcmp(pkLida, pkEntrada) == 0){
-                strcpy(linhaApagar, linha);
-                printf("me apague: %s\n", linhaApagar);
-                break; //chave inválida
-            }
-        }
-
-        for(int i = 0; i < qtdLinhas; i++){
+            printf("%s", linhasTab[i]);
             if(strcmp(linhasTab[i], linhaApagar) != 0){
-                fprintf(tabelasNovo, "%s\n", linhasTab[i]);
+                fprintf(tabelasNovo, "%s", linhasTab[i]);
             }
         }
 

@@ -26,7 +26,10 @@
 ([ ])Confere se a tabela existe
 
 ### 6. Apagar uma linha
-([ ])Confere se a tabela existe
+([x])Confere se a tabela existe
+([x])Confere se a chave primária existe na tabela
+([x])Apaga a linha
+
 
 ### 7. Apagar uma tabela
 ([x])Confere se a tabela existe
