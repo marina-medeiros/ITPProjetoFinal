@@ -45,21 +45,21 @@ void apagaLinha(){
             return;
         }
 
-        qtdLinhas = (contaLinhas(path));
+        fclose(table);
 
-        printf("%d", qtdLinhas);
+        qtdLinhas = (contaLinhas(path));
 
         char linhasTab[qtdLinhas][200];
 
-        FILE *tabela = fopen(path, "r");
+        FILE *tabelaR = fopen(path, "r");
 
-        if(tabela == NULL){
+        if(tabelaR == NULL){
             printf("Erro ao abrir arquivo tabela na função 'apagaLinha'\n");
             return;
         }
 
         for(int i = 0; i < qtdLinhas; i++){
-            fgets(linhasTab[i], 200, tabela); //agora o vetor linhas tem o conteúdo da tabela em questão
+            fgets(linhasTab[i], 200, tabelaR);
             strcpy(linhaAux, linhasTab[i]);
 
             if(i > 2){
@@ -71,23 +71,23 @@ void apagaLinha(){
             }
         }
 
-        fclose(tabela);
+        fclose(tabelaR);
 
-        FILE *tabelasNovo = fopen(path, "w");
+        FILE *tabelaW = fopen(path, "w");
 
-        if(tabelasNovo == NULL){
-            printf("Erro ao abrir arquivo tabelasNovo na função 'apagaTabela'\n");
+        if(tabelaW == NULL){
+            printf("Erro ao abrir arquivo tabelaW na função 'apagaTabela'\n");
             return;
         }
 
         for(int i = 0; i < qtdLinhas; i++){
             printf("%s", linhasTab[i]);
             if(strcmp(linhasTab[i], linhaApagar) != 0){
-                fprintf(tabelasNovo, "%s", linhasTab[i]);
+                fprintf(tabelaW, "%s", linhasTab[i]);
             }
         }
 
-        fclose(tabelasNovo);
+        fclose(tabelaW);
     }
 
 

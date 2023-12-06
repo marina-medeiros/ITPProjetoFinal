@@ -30,7 +30,6 @@
 ([x])Confere se a chave primária existe na tabela
 ([x])Apaga a linha
 
-
 ### 7. Apagar uma tabela
 ([x])Confere se a tabela existe
 ([x])Apaga linha do arquivo "tabelas.txt"
@@ -38,3 +37,4 @@
 
 ### 8. Sair
 ([x])Funciona
+
