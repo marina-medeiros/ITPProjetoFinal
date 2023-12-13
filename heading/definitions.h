@@ -7,3 +7,4 @@ typedef struct{
     char nome[30];
     char tipo[10];
 }Coluna;
+

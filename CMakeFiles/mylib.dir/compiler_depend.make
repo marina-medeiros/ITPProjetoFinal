@@ -48,7 +48,6 @@ CMakeFiles/mylib.dir/funcs/criaLinha.c.obj: funcs/criaLinha.c \
   C:/MinGW/include/wchar.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  heading/definitions.h \
   heading/functions.h \
   heading/utils.h
 
@@ -115,7 +114,10 @@ CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj: funcs/pesquisaValor.c \
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
+  heading/functions.h \
+  heading/utils.h
 
 CMakeFiles/mylib.dir/utils/contaLinhas.c.obj: utils/contaLinhas.c \
   C:/MinGW/include/_mingw.h \
@@ -212,6 +214,7 @@ CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: utils/validaChavePrimaria.
 
 CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: utils/validaStringTipo.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/ctype.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -220,6 +223,7 @@ CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: utils/validaStringTipo.c \
   C:/MinGW/include/sys/types.h \
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/wchar.h \
+  C:/MinGW/include/wctype.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   heading/definitions.h \
@@ -300,5 +304,9 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h:
 utils/validaChavePrimaria.c:
 
 utils/validaStringTipo.c:
+
+C:/MinGW/include/ctype.h:
+
+C:/MinGW/include/wctype.h:
 
 utils/validaTabela.c:

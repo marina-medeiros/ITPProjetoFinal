@@ -13,7 +13,7 @@ void listaTabelas(){
     FILE *file = fopen("tabelas.txt", "r");
 
     if(file == NULL){
-        printf("Erro ao abrir arquivo na função 'listaTabelas'\n");
+        printf(">>>Erro ao abrir arquivo na função 'listaTabelas'\n");
         return;
     }
 

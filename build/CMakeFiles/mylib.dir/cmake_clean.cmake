@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mylib.dir/utils/mostraMenu.c.obj.d"
   "CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj"
   "CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj.d"
+  "CMakeFiles/mylib.dir/utils/pegaColunas.c.obj"
+  "CMakeFiles/mylib.dir/utils/pegaColunas.c.obj.d"
   "CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj"
   "CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj.d"
   "CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj"

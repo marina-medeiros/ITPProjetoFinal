@@ -13,14 +13,13 @@ void listaDadosTabela(){
     char linha[200];
     int c, qtdLinhas, qtdColunas, maiorStrlen;
 
-    printf("Insira o nome da tabela: ");
+    printf(">>>Insira o nome da tabela: ");
 
     while ((c = getchar()) != '\n' && c != EOF) {}
     scanf("%[^\n]", nomeTabela);
 
     if(validaTabela(nomeTabela) == 0){
-        printf("Ops! A tabela %s não existe!\n", nomeTabela);
-        printf("----------------------------------------\n");
+        printf(">>>Ops! A tabela %s não existe!\n", nomeTabela);
         return;
     }else{
         strcpy(path, "tabelasIndividuais/");
@@ -32,7 +31,7 @@ void listaDadosTabela(){
         FILE *file = fopen(path, "r");
           
         if(file == NULL){
-            printf("Erro ao abrir arquivo na função 'listaDadosTabela'\n");
+            printf(">>>Erro ao abrir arquivo na função 'listaDadosTabela'\n");
             return;
         }
 

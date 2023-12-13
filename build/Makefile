@@ -432,6 +432,30 @@ utils/pagaStrlen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/pagaStrlen.c.s
 .PHONY : utils/pagaStrlen.c.s
 
+utils/pegaColunas.obj: utils/pegaColunas.c.obj
+.PHONY : utils/pegaColunas.obj
+
+# target to build an object file
+utils/pegaColunas.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/pegaColunas.c.obj
+.PHONY : utils/pegaColunas.c.obj
+
+utils/pegaColunas.i: utils/pegaColunas.c.i
+.PHONY : utils/pegaColunas.i
+
+# target to preprocess a source file
+utils/pegaColunas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/pegaColunas.c.i
+.PHONY : utils/pegaColunas.c.i
+
+utils/pegaColunas.s: utils/pegaColunas.c.s
+.PHONY : utils/pegaColunas.s
+
+# target to generate assembly for a file
+utils/pegaColunas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/pegaColunas.c.s
+.PHONY : utils/pegaColunas.c.s
+
 utils/validaChavePrimaria.obj: utils/validaChavePrimaria.c.obj
 .PHONY : utils/validaChavePrimaria.obj
 
@@ -550,6 +574,9 @@ help:
 	@echo ... utils/pagaStrlen.obj
 	@echo ... utils/pagaStrlen.i
 	@echo ... utils/pagaStrlen.s
+	@echo ... utils/pegaColunas.obj
+	@echo ... utils/pegaColunas.i
+	@echo ... utils/pegaColunas.s
 	@echo ... utils/validaChavePrimaria.obj
 	@echo ... utils/validaChavePrimaria.i
 	@echo ... utils/validaChavePrimaria.s

@@ -51,7 +51,6 @@ CMakeFiles/mylib.dir/funcs/criaLinha.c.obj
  C:/MinGW/include/wchar.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
- C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/definitions.h
  C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/functions.h
  C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/utils.h
 
@@ -123,6 +122,9 @@ CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj
  C:/MinGW/include/wchar.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+ C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/definitions.h
+ C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/functions.h
+ C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/utils.h
 
 CMakeFiles/mylib.dir/utils/contaLinhas.c.obj
  C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/contaLinhas.c
@@ -226,6 +228,7 @@ CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj
 CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj
  C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaStringTipo.c
  C:/MinGW/include/_mingw.h
+ C:/MinGW/include/ctype.h
  C:/MinGW/include/msvcrtver.h
  C:/MinGW/include/sdkddkver.h
  C:/MinGW/include/stdio.h
@@ -234,6 +237,7 @@ CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj
  C:/MinGW/include/sys/types.h
  C:/MinGW/include/w32api.h
  C:/MinGW/include/wchar.h
+ C:/MinGW/include/wctype.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h
  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
  C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/heading/definitions.h

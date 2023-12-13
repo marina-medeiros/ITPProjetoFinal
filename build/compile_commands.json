@@ -73,6 +73,12 @@
 },
 {
   "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\pegaColunas.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\pegaColunas.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/pegaColunas.c",
+  "output": "CMakeFiles/mylib.dir/utils/pegaColunas.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\validaChavePrimaria.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\validaChavePrimaria.c",
   "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaChavePrimaria.c",
   "output": "CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj"

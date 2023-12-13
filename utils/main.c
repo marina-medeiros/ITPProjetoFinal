@@ -35,7 +35,6 @@ int main(){
                 criaLinha(); 
             break;
         
-            
             case 4: 
                 printf("----------------------------------------\n");
                 printf("Você escolheu: 4. Listar todos os dados de uma tabela\n");
@@ -43,7 +42,12 @@ int main(){
                 listaDadosTabela();
             break;
             
-            //case 5: pesquisaValor(); break;
+            case 5: 
+                printf("----------------------------------------\n");
+                printf("Você escolheu: 5. Pesquisar valor em uma tabela\n");
+                printf("----------------------------------------\n");
+                pesquisaValor();
+            break;
 
             case 6: 
                 printf("----------------------------------------\n");

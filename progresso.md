@@ -8,7 +8,8 @@
 ([x])Confere se a tabela já existe
 ([x])Cadastra colunas 
 ([x])Lê chave primária
-([v])Confere se o nome do tipo está correto --> Dá pra melhorar
+([x])Confere se o nome do tipo está correto
+([x])Converter entrada para letras minúsculas
 ([ ])Valida tipo --> Acho q n precisa
 
 ### 2. Listar todas as tabelas
@@ -23,7 +24,10 @@
 ([v])Imprime informações com formatação bonitinha --> Rever tamanho das strings
 
 ### 5. Pesquisar valor em uma tabela
-([ ])Confere se a tabela existe
+([x])Confere se a tabela existe
+([x])Imprime as colunas da tabela
+([ ])Confere se a coluna a ser perquisada é válida
+([ ])Recebe valor e opção
 
 ### 6. Apagar uma linha
 ([x])Confere se a tabela existe

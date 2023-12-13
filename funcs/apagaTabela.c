@@ -11,14 +11,13 @@ void apagaTabela(){
     char path[60];
     int c, qtdLinhas;
 
-    printf("Insira o nome da tabela: ");
+    printf(">>>Insira o nome da tabela: ");
 
     while ((c = getchar()) != '\n' && c != EOF) {}
     scanf("%[^\n]", nomeTabela);
 
     if(validaTabela(nomeTabela) == 0){
-        printf("Ops! Parece que a tabela %s não existe!\n", nomeTabela);
-        printf("----------------------------------------\n");
+        printf(">>>Ops! Parece que a tabela %s não existe!\n", nomeTabela);
         return;
     }else{
         strcpy(path, "tabelasIndividuais/");
@@ -26,10 +25,8 @@ void apagaTabela(){
         strcat(path, ".txt");
 
         //Excluir arquivo individual da tabela:
-        if(remove(path) == 0){
-            printf("Sucesso ao apagar arquivo table na função 'apagaTabela'\n");
-        }else{
-            printf("Erro ao apagar arquivo table na função 'apagaTabela'\n");
+        if(remove(path) != 0){
+            printf(">>>Erro ao apagar arquivo table na função 'apagaTabela'\n");
             return;
         }
 
@@ -41,7 +38,7 @@ void apagaTabela(){
         FILE *tabelas = fopen("tabelas.txt", "r");
 
         if(tabelas == NULL){
-            printf("Erro ao abrir arquivo tabelas na função 'apagaTabela'\n");
+            printf(">>>Erro ao abrir arquivo tabelas na função 'apagaTabela'\n");
             return;
         }
 
@@ -54,7 +51,7 @@ void apagaTabela(){
         FILE *tabelasNovo = fopen("tabelas.txt", "w");
 
         if(tabelasNovo == NULL){
-            printf("Erro ao abrir arquivo tabelasNovo na função 'apagaTabela'\n");
+            printf(">>>Erro ao abrir arquivo tabelasNovo na função 'apagaTabela'\n");
             return;
         }
 
@@ -66,7 +63,7 @@ void apagaTabela(){
 
         fclose(tabelasNovo);
 
-        printf("Tabela apagada com sucesso!\n");
+        printf(">>>Tabela apagada com sucesso!\n");
     }
 
 

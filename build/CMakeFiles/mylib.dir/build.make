@@ -248,11 +248,26 @@ CMakeFiles/mylib.dir/utils/pagaStrlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mylib.dir/utils/pagaStrlen.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\pagaStrlen.c -o CMakeFiles\mylib.dir\utils\pagaStrlen.c.s
 
+CMakeFiles/mylib.dir/utils/pegaColunas.c.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/utils/pegaColunas.c.obj: CMakeFiles/mylib.dir/includes_C.rsp
+CMakeFiles/mylib.dir/utils/pegaColunas.c.obj: C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/pegaColunas.c
+CMakeFiles/mylib.dir/utils/pegaColunas.c.obj: CMakeFiles/mylib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mylib.dir/utils/pegaColunas.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mylib.dir/utils/pegaColunas.c.obj -MF CMakeFiles\mylib.dir\utils\pegaColunas.c.obj.d -o CMakeFiles\mylib.dir\utils\pegaColunas.c.obj -c C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\pegaColunas.c
+
+CMakeFiles/mylib.dir/utils/pegaColunas.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mylib.dir/utils/pegaColunas.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\pegaColunas.c > CMakeFiles\mylib.dir\utils\pegaColunas.c.i
+
+CMakeFiles/mylib.dir/utils/pegaColunas.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mylib.dir/utils/pegaColunas.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\pegaColunas.c -o CMakeFiles\mylib.dir\utils\pegaColunas.c.s
+
 CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: CMakeFiles/mylib.dir/includes_C.rsp
 CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaChavePrimaria.c
 CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: CMakeFiles/mylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj -MF CMakeFiles\mylib.dir\utils\validaChavePrimaria.c.obj.d -o CMakeFiles\mylib.dir\utils\validaChavePrimaria.c.obj -c C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\validaChavePrimaria.c
 
 CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.i: cmake_force
@@ -267,7 +282,7 @@ CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: CMakeFiles/mylib.dir/flags.ma
 CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: CMakeFiles/mylib.dir/includes_C.rsp
 CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaStringTipo.c
 CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: CMakeFiles/mylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj -MF CMakeFiles\mylib.dir\utils\validaStringTipo.c.obj.d -o CMakeFiles\mylib.dir\utils\validaStringTipo.c.obj -c C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\validaStringTipo.c
 
 CMakeFiles/mylib.dir/utils/validaStringTipo.c.i: cmake_force
@@ -282,7 +297,7 @@ CMakeFiles/mylib.dir/utils/validaTabela.c.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/utils/validaTabela.c.obj: CMakeFiles/mylib.dir/includes_C.rsp
 CMakeFiles/mylib.dir/utils/validaTabela.c.obj: C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/validaTabela.c
 CMakeFiles/mylib.dir/utils/validaTabela.c.obj: CMakeFiles/mylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mylib.dir/utils/validaTabela.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mylib.dir/utils/validaTabela.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mylib.dir/utils/validaTabela.c.obj -MF CMakeFiles\mylib.dir\utils\validaTabela.c.obj.d -o CMakeFiles\mylib.dir\utils\validaTabela.c.obj -c C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\validaTabela.c
 
 CMakeFiles/mylib.dir/utils/validaTabela.c.i: cmake_force
@@ -307,6 +322,7 @@ mylib_OBJECTS = \
 "CMakeFiles/mylib.dir/utils/main.c.obj" \
 "CMakeFiles/mylib.dir/utils/mostraMenu.c.obj" \
 "CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj" \
+"CMakeFiles/mylib.dir/utils/pegaColunas.c.obj" \
 "CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj" \
 "CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj" \
 "CMakeFiles/mylib.dir/utils/validaTabela.c.obj"
@@ -326,12 +342,13 @@ libmylib.a: CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj
 libmylib.a: CMakeFiles/mylib.dir/utils/main.c.obj
 libmylib.a: CMakeFiles/mylib.dir/utils/mostraMenu.c.obj
 libmylib.a: CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj
+libmylib.a: CMakeFiles/mylib.dir/utils/pegaColunas.c.obj
 libmylib.a: CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj
 libmylib.a: CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj
 libmylib.a: CMakeFiles/mylib.dir/utils/validaTabela.c.obj
 libmylib.a: CMakeFiles/mylib.dir/build.make
 libmylib.a: CMakeFiles/mylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libmylib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library libmylib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\mylib.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mylib.dir\link.txt --verbose=$(VERBOSE)
 

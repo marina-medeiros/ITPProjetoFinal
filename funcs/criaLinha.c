@@ -13,14 +13,13 @@ void criaLinha(){
     char entrada[30];
     int c, qtdColunas;
 
-    printf("Insira o nome da tabela: ");
+    printf(">>>Insira o nome da tabela: ");
 
     while ((c = getchar()) != '\n' && c != EOF) {}
     scanf("%[^\n]", nomeTabela);
 
     if(validaTabela(nomeTabela) == 0){
-        printf("Ops! Parece que a tabela %s não existe!\n", nomeTabela);
-        printf("----------------------------------------\n");
+        printf(">>>Ops! Parece que a tabela %s não existe!\n", nomeTabela);
         return;
     }else{
         strcpy(path, "tabelasIndividuais/");
@@ -30,15 +29,13 @@ void criaLinha(){
         FILE *table = fopen(path, "r");
 
         if(table == NULL){
-            printf("Erro ao abrir arquivo table na função 'criaLinha'\n");
+            printf(">>>Erro ao abrir arquivo table na função 'criaLinha'\n");
             return;
-        }else{
-            printf("Sucesso ao abrir arquivo table na função 'criaLinha'\n");
         }
 
         fscanf(table, "%d", &qtdColunas);
 
-        Coluna *colunasTabela = (Coluna*)malloc(sizeof(Coluna) * qtdColunas);
+        Coluna colunasTabela = (Coluna)malloc(sizeof(Coluna) * qtdColunas);
 
         fscanf(table, "%s", aux); //Lê a segunda linha da tabela, que contém os nomes das colunas
 
@@ -60,20 +57,19 @@ void criaLinha(){
 
         FILE *tableA = fopen(path, "a");
 
-        printf("Insira um valor de tipo inteiro sem sinal para a chave primária '%s'\n", colunasTabela[0].nome);
+        printf(">>>Insira um valor de tipo inteiro sem sinal para a chave primária '%s'\n", colunasTabela[0].nome);
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", entrada);
 
         if(validaChavePrimaria(nomeTabela, entrada) == 0){
-            printf("Ops! Já existe um registro com a mesma chave primária na tabela %s!\n", nomeTabela);
-            printf("----------------------------------------\n");
+            printf(">>>Ops! Já existe um registro com a mesma chave primária na tabela %s!\n", nomeTabela);
             return;
         }
 
-        fprintf(tableA, "%s|", entrada); //espaço dps da chve primária para facilitar na hora de pegar esse valor
+        fprintf(tableA, "%s|", entrada);
 
         for(int i = 1; i < qtdColunas; i++){
-            printf("Insira um valor de tipo %s para a coluna '%s'\n", colunasTabela[i].tipo, colunasTabela[i].nome);
+            printf(">>>Insira um valor de tipo %s para a coluna '%s'\n", colunasTabela[i].tipo, colunasTabela[i].nome);
             while ((c = getchar()) != '\n' && c != EOF) {}
             scanf("%[^\n]", entrada);
             fprintf(tableA, "%s|", entrada);
@@ -81,5 +77,5 @@ void criaLinha(){
         fprintf(tableA, "\n");
 
         fclose(tableA);
-    }
+    }
 }

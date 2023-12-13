@@ -14,19 +14,17 @@ void criaTabela(){
     int c;
     Coluna *arrayColunas = (Coluna*)malloc(sizeof(Coluna) * 1);
     
-    printf("Insira o nome da tabela: ");
+    printf(">>>Insira o nome da tabela: ");
 
     while ((c = getchar()) != '\n' && c != EOF) {}
     scanf("%[^\n]", novaTabela.nome);
 
     if(validaTabela(novaTabela.nome) == 1){
-        printf("Ops! Já existe uma tabela com o nome %s!\n", novaTabela.nome);
-        printf("----------------------------------------\n");
+        printf(">>>Ops! Já existe uma tabela com o nome %s!\n", novaTabela.nome);
         return;
     }else{
-        printf("----------------------------------------\n");
-        printf("A primeira coluna da tabela será a chave primaria, ela será do tipo inteiro sem sinal\n");
-        printf("Insira o nome da coluna de chave primária: ");
+        printf(">>>A primeira coluna da tabela será a chave primaria, ela será do tipo inteiro sem sinal\n");
+        printf(">>>Insira o nome da coluna de chave primária: ");
 
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", arrayColunas[qtdColunas].nome);
@@ -36,9 +34,8 @@ void criaTabela(){
         qtdColunas++;
 
         printf("----------------------------------------\n");
-        printf("Agora, vamos cadastrar as demais colunas, conforme o exemplo: string nome\n");
-        printf("Os tipos disponíveis são: INT, CHAR, FLOAT, DOUBLE e STRING\n");
-        printf("----------------------------------------\n");
+        printf(">>>Agora, vamos cadastrar as demais colunas, conforme o exemplo: string nome\n");
+        printf(">>>Os tipos disponíveis são: INT, CHAR, FLOAT, DOUBLE e STRING\n");
         do{
             arrayColunas = realloc(arrayColunas, sizeof(Coluna) * (qtdColunas + 1));
 
@@ -48,8 +45,7 @@ void criaTabela(){
             strcpy(tipo, strtok(entradaCol, " "));
 
             if(strcmp(tipo, "FIM") != 0 && validaStringTipo(tipo) == 0){
-                printf("Ops! O tipo inserido não é válido!\n");
-                printf("----------------------------------\n");
+                printf(">>>Ops! O tipo inserido não é válido!\n");
                 return;
                 break;
             }

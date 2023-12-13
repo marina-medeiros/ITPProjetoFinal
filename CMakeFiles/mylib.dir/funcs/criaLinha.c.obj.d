@@ -9,5 +9,4 @@ CMakeFiles/mylib.dir/funcs/criaLinha.c.obj: \
  c:\mingw\include\stdlib.h c:\mingw\include\string.h \
  c:\mingw\include\strings.h c:\mingw\include\wchar.h \
  c:\users\marin\onedrive\documents\itpprojetofinal\heading\functions.h \
- c:\users\marin\onedrive\documents\itpprojetofinal\heading\utils.h \
- c:\users\marin\onedrive\documents\itpprojetofinal\heading\definitions.h
+ c:\users\marin\onedrive\documents\itpprojetofinal\heading\utils.h
