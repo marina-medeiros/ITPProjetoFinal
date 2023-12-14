@@ -10,7 +10,8 @@ void pesquisaValor(){
     char nomeTabela[50];
     char path[60];
     char aux[100];
-    int c, qtdColunas, colunaEscolhida;
+    int c, qtdColunas, colunaEscolhida, opcaoPesquisa;
+    char valor[30];
 
     printf(">>>Insira o nome da tabela: ");
 
@@ -32,8 +33,11 @@ void pesquisaValor(){
         printf(">>>Erro ao abrir arquivo table na função 'criaLinha'\n");
         return;
     }
+    
+    int qtdLinhas = contaLinhas(path);
+    printf("qtd de linhas: %d\n", qtdLinhas);
 
-    //Pega as colunas:
+    /////////////////Pega as colunas//////////////////
 
     fscanf(table, "%d", &qtdColunas);
 
@@ -55,29 +59,63 @@ void pesquisaValor(){
         strcpy(colunasTabela[i].tipo, strtok(NULL, "|"));
     }
 
-    ///////////////////////////////
-
     fclose(table);
+
+    /////////////////////////////////////////////////////
 
     printf(">>>As colunas disponíveis são:\n");
 
     for(int i = 0; i < qtdColunas; i++){
-        printf(">>>%d: '%s' de tipo '%s'\n", (i+1), colunasTabela[i].nome, colunasTabela[i].tipo);
+        printf(">>> %d: '%s' de tipo '%s'\n", (i+1), colunasTabela[i].nome, colunasTabela[i].tipo);
     }
 
-    colunaEscolhida = 1;
+    printf(">>>Insira o número da coluna em que você quer pesquisar\n");
+    scanf("%d", &colunaEscolhida);
 
     while(colunaEscolhida < 1 || colunaEscolhida > qtdColunas){
-        printf(">>>Insira o número da coluna em que você quer pesquisar\n");
+        printf(">>>Ops! Essa coluna não existe na tabela. Tente novamente.");
         scanf("%d", &colunaEscolhida);
-
-        if(colunaEscolhida < 1 || colunaEscolhida > qtdColunas){
-            printf(">>>Ops! Essa coluna não existe na tabela. Tente novamente.");
-            return;
+        if(colunaEscolhida > 0 && colunaEscolhida < qtdColunas){
+            break;
         }
     }
 
+    printf(">>>A coluna escolhida foi: '%s' de tipo '%s'\n", colunasTabela[colunaEscolhida-1].nome, colunasTabela[colunaEscolhida-1].tipo);
 
-    
+    printf(">>>Insira o valor a ser pesquisado\n");
+    while ((c = getchar()) != '\n' && c != EOF) {}
+    scanf("%[^\n]", valor);
 
+    printf("Opções de pesquisa:\n");
+    printf(" 1. Valores maiores que %s\n", valor);
+    printf(" 2. Valores maiores ou iguais a %s\n", valor);
+    printf(" 3. Valores iguais a %s\n", valor);
+    printf(" 4. Valores menores que %s\n", valor);
+    printf(" 5. Valores menores ou iguais a %s\n", valor);
+    printf(" 6. Valores próximos a %s\n", valor);
+
+    opcaoPesquisa = 0;
+
+    while(opcaoPesquisa < 1 || opcaoPesquisa > 6){
+        printf(">>>Insira o número da opção de pesquisa\n");
+        scanf("%d", &opcaoPesquisa);
+
+        if(opcaoPesquisa < 1 || opcaoPesquisa > 6){
+            printf(">>>Ops! Opção inválida. Tente novamente.");
+        }
+        if(opcaoPesquisa > 0 && colunaEscolhida < 7){
+            break;
+        }
+    }
+
+    char *aux2;
+    double floatValor = strtod(valor, &aux2);
+
+    printf(">>>Resultado da pesquisa:\n");
+    if(validaStringTipo(colunasTabela[colunaEscolhida-1].tipo) == 1){
+        auxPesquisaNum(path, qtdLinhas, colunaEscolhida, opcaoPesquisa, floatValor);
+    }
+    if(validaStringTipo(colunasTabela[colunaEscolhida-1].tipo) == 2){
+        auxPesquisaChar(path, qtdLinhas, colunaEscolhida, opcaoPesquisa, valor);
+    }
 }

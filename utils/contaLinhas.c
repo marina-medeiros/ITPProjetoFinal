@@ -6,7 +6,6 @@
 int contaLinhas(char *arquivo){
     int qtdLinhas = 0;
     char aux;
-    //strcat(arquivo, ".txt");
 
     FILE *file = fopen(arquivo, "r");
 

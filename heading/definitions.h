@@ -8,3 +8,6 @@ typedef struct{
     char tipo[10];
 }Coluna;
 
+typedef struct{
+    char texto[30];
+}String;

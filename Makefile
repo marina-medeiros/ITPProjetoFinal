@@ -309,6 +309,54 @@ funcs/pesquisaValor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/funcs/pesquisaValor.c.s
 .PHONY : funcs/pesquisaValor.c.s
 
+utils/auxPesquisaChar.obj: utils/auxPesquisaChar.c.obj
+.PHONY : utils/auxPesquisaChar.obj
+
+# target to build an object file
+utils/auxPesquisaChar.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.obj
+.PHONY : utils/auxPesquisaChar.c.obj
+
+utils/auxPesquisaChar.i: utils/auxPesquisaChar.c.i
+.PHONY : utils/auxPesquisaChar.i
+
+# target to preprocess a source file
+utils/auxPesquisaChar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.i
+.PHONY : utils/auxPesquisaChar.c.i
+
+utils/auxPesquisaChar.s: utils/auxPesquisaChar.c.s
+.PHONY : utils/auxPesquisaChar.s
+
+# target to generate assembly for a file
+utils/auxPesquisaChar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.s
+.PHONY : utils/auxPesquisaChar.c.s
+
+utils/auxPesquisaNum.obj: utils/auxPesquisaNum.c.obj
+.PHONY : utils/auxPesquisaNum.obj
+
+# target to build an object file
+utils/auxPesquisaNum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj
+.PHONY : utils/auxPesquisaNum.c.obj
+
+utils/auxPesquisaNum.i: utils/auxPesquisaNum.c.i
+.PHONY : utils/auxPesquisaNum.i
+
+# target to preprocess a source file
+utils/auxPesquisaNum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.i
+.PHONY : utils/auxPesquisaNum.c.i
+
+utils/auxPesquisaNum.s: utils/auxPesquisaNum.c.s
+.PHONY : utils/auxPesquisaNum.s
+
+# target to generate assembly for a file
+utils/auxPesquisaNum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mylib.dir\build.make CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.s
+.PHONY : utils/auxPesquisaNum.c.s
+
 utils/contaLinhas.obj: utils/contaLinhas.c.obj
 .PHONY : utils/contaLinhas.obj
 
@@ -535,6 +583,12 @@ help:
 	@echo ... funcs/pesquisaValor.obj
 	@echo ... funcs/pesquisaValor.i
 	@echo ... funcs/pesquisaValor.s
+	@echo ... utils/auxPesquisaChar.obj
+	@echo ... utils/auxPesquisaChar.i
+	@echo ... utils/auxPesquisaChar.s
+	@echo ... utils/auxPesquisaNum.obj
+	@echo ... utils/auxPesquisaNum.i
+	@echo ... utils/auxPesquisaNum.s
 	@echo ... utils/contaLinhas.obj
 	@echo ... utils/contaLinhas.i
 	@echo ... utils/contaLinhas.s

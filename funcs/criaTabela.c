@@ -29,7 +29,7 @@ void criaTabela(){
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", arrayColunas[qtdColunas].nome);
 
-        strcpy(arrayColunas[qtdColunas].tipo, "int");
+        strcpy(arrayColunas[qtdColunas].tipo, "unsigned int");
 
         qtdColunas++;
 

@@ -15,6 +15,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/listaDadosTabela.c" "CMakeFiles/mylib.dir/funcs/listaDadosTabela.c.obj" "gcc" "CMakeFiles/mylib.dir/funcs/listaDadosTabela.c.obj.d"
   "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/listaTabelas.c" "CMakeFiles/mylib.dir/funcs/listaTabelas.c.obj" "gcc" "CMakeFiles/mylib.dir/funcs/listaTabelas.c.obj.d"
   "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/funcs/pesquisaValor.c" "CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj" "gcc" "CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj.d"
+  "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/auxPesquisaChar.c" "CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.obj" "gcc" "CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.obj.d"
+  "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/auxPesquisaNum.c" "CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj" "gcc" "CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj.d"
   "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/contaLinhas.c" "CMakeFiles/mylib.dir/utils/contaLinhas.c.obj" "gcc" "CMakeFiles/mylib.dir/utils/contaLinhas.c.obj.d"
   "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/criaTabelaArquivo.c" "CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj" "gcc" "CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj.d"
   "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/main.c" "CMakeFiles/mylib.dir/utils/main.c.obj" "gcc" "CMakeFiles/mylib.dir/utils/main.c.obj.d"

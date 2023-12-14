@@ -43,6 +43,18 @@
 },
 {
   "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\auxPesquisaChar.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\auxPesquisaChar.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/auxPesquisaChar.c",
+  "output": "CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\auxPesquisaNum.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\auxPesquisaNum.c",
+  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/auxPesquisaNum.c",
+  "output": "CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj"
+},
+{
+  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\contaLinhas.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\contaLinhas.c",
   "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/contaLinhas.c",
   "output": "CMakeFiles/mylib.dir/utils/contaLinhas.c.obj"
@@ -70,12 +82,6 @@
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\pagaStrlen.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\pagaStrlen.c",
   "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/pagaStrlen.c",
   "output": "CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj"
-},
-{
-  "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/mylib.dir/includes_C.rsp -g -o CMakeFiles\\mylib.dir\\utils\\pegaColunas.c.obj -c C:\\Users\\marin\\OneDrive\\Documents\\ITPProjetoFinal\\utils\\pegaColunas.c",
-  "file": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/pegaColunas.c",
-  "output": "CMakeFiles/mylib.dir/utils/pegaColunas.c.obj"
 },
 {
   "directory": "C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/build",

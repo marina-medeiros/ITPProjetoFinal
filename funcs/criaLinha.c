@@ -35,7 +35,7 @@ void criaLinha(){
 
         fscanf(table, "%d", &qtdColunas);
 
-        Coluna colunasTabela = (Coluna)malloc(sizeof(Coluna) * qtdColunas);
+        Coluna colunasTabela[qtdColunas];
 
         fscanf(table, "%s", aux); //Lê a segunda linha da tabela, que contém os nomes das colunas
 
@@ -77,5 +77,5 @@ void criaLinha(){
         fprintf(tableA, "\n");
 
         fclose(tableA);
-    }
+    }
 }

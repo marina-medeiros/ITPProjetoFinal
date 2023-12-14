@@ -26,8 +26,13 @@
 ### 5. Pesquisar valor em uma tabela
 ([x])Confere se a tabela existe
 ([x])Imprime as colunas da tabela
-([ ])Confere se a coluna a ser perquisada é válida
-([ ])Recebe valor e opção
+([x])Confere se a coluna a ser perquisada é válida
+([x])Recebe valor e opção
+([ ])Alocação dinâmica
+([x])Pesquisa pk
+([ ])Pesquisa numeros
+([ ])Pesquisa pesquisa char
+([ ])Pesquisa string
 
 ### 6. Apagar uma linha
 ([x])Confere se a tabela existe

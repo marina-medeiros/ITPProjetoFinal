@@ -48,6 +48,7 @@ CMakeFiles/mylib.dir/funcs/criaLinha.c.obj: funcs/criaLinha.c \
   C:/MinGW/include/wchar.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
   heading/functions.h \
   heading/utils.h
 
@@ -103,6 +104,40 @@ CMakeFiles/mylib.dir/funcs/listaTabelas.c.obj: funcs/listaTabelas.c \
   heading/utils.h
 
 CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj: funcs/pesquisaValor.c \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
+  C:/MinGW/include/strings.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/include/wchar.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
+  heading/functions.h \
+  heading/utils.h
+
+CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.obj: utils/auxPesquisaChar.c \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
+  C:/MinGW/include/strings.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/include/wchar.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  heading/definitions.h \
+  heading/functions.h \
+  heading/utils.h
+
+CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj: utils/auxPesquisaNum.c \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
@@ -267,6 +302,8 @@ C:/MinGW/include/stdio.h:
 
 C:/MinGW/include/strings.h:
 
+utils/auxPesquisaChar.c:
+
 C:/MinGW/include/stdlib.h:
 
 funcs/criaTabela.c:
@@ -293,11 +330,13 @@ funcs/criaLinha.c:
 
 funcs/listaTabelas.c:
 
+utils/main.c:
+
+utils/auxPesquisaNum.c:
+
 utils/contaLinhas.c:
 
 utils/criaTabelaArquivo.c:
-
-utils/main.c:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h:
 

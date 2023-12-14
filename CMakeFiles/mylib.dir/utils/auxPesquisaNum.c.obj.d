@@ -1,5 +1,5 @@
-CMakeFiles/mylib.dir/funcs/criaLinha.c.obj: \
- C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\funcs\criaLinha.c \
+CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj: \
+ C:\Users\marin\OneDrive\Documents\ITPProjetoFinal\utils\auxPesquisaNum.c \
  c:\mingw\include\stdio.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
  c:\mingw\include\sdkddkver.h \

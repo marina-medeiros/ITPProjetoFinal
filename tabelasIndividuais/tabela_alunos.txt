@@ -1,6 +1,11 @@
-5
-matricula|nome|curso|turma|ano_ingresso|
-int|string|string|char|int|
-20230048521|Marina Leite|TI|A|2023|
-20230012345|Pedro Augusto|C&T|B|2022|
-20210012355|Maria Ant“nia|Pedagogia|A|2022|
+6
+matricula|nome|curso|turma|ano_ingresso|nota|
+int|string|string|int|int|char|
+20230001|Marina Leite|TI|11|2023|A|
+20230002|Pedro Augusto|C&T|33|2022|B|
+20210003|Paula Lavigne|Pedagogia|4|2019|C|
+20230004|Ana Menezes|Direito|99|2022|D|
+20230005|Camilo Diaz|Jornalismo|54|2020|A|
+20230006|Rodrigo Pimenta|Medicina|107|2021|E|
+20230007|Leo Braulio|Design|21|2021|C|
+20230008|Clara Matheus|Letras|32|2012|A|
