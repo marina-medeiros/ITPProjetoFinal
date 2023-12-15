@@ -46,7 +46,6 @@ void criaTabela(){
             if(strcmp(tipo, "FIM") != 0 && validaStringTipo(tipo) == 0){
                 printf(">>>Ops! O tipo inserido não é válido!\n");
                 return;
-                break;
             }
             else{
 
