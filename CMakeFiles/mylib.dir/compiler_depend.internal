@@ -198,6 +198,7 @@ CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj
 CMakeFiles/mylib.dir/utils/main.c.obj
  C:/Users/marin/OneDrive/Documents/ITPProjetoFinal/utils/main.c
  C:/MinGW/include/_mingw.h
+ C:/MinGW/include/conio.h
  C:/MinGW/include/msvcrtver.h
  C:/MinGW/include/sdkddkver.h
  C:/MinGW/include/stdio.h

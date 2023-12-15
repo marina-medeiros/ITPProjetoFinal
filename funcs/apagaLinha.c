@@ -80,7 +80,6 @@ void apagaLinha(){
         }
 
         for(int i = 0; i < qtdLinhas; i++){
-            printf("%s", linhasTab[i]);
             if(strcmp(linhasTab[i], linhaApagar) != 0){
                 fprintf(tabelaW, "%s", linhasTab[i]);
             }

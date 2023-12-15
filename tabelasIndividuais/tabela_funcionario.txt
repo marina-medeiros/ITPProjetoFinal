@@ -1,3 +1,0 @@
-4
-cpf|idade|altura|nome|
-int|int|float|string|

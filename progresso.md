@@ -10,7 +10,6 @@
 ([x])Lê chave primária
 ([x])Confere se o nome do tipo está correto
 ([x])Converter entrada para letras minúsculas
-([ ])Valida tipo --> Acho q n precisa
 
 ### 2. Listar todas as tabelas
 ([x])Lista todas as tabelas do doc tabelas.txt
@@ -21,18 +20,17 @@
 
 ### 4. Listar todos os dados de uma tabela
 ([x])Confere se a tabela existe
-([v])Imprime informações com formatação bonitinha --> Rever tamanho das strings
+([x])Imprime informações com formatação bonitinha
 
 ### 5. Pesquisar valor em uma tabela
 ([x])Confere se a tabela existe
 ([x])Imprime as colunas da tabela
 ([x])Confere se a coluna a ser perquisada é válida
 ([x])Recebe valor e opção
-([ ])Alocação dinâmica
 ([x])Pesquisa pk
-([ ])Pesquisa numeros
-([ ])Pesquisa pesquisa char
-([ ])Pesquisa string
+([x])Pesquisa numeros
+([x])Pesquisa pesquisa char
+([x])Pesquisa string
 
 ### 6. Apagar uma linha
 ([x])Confere se a tabela existe
@@ -46,4 +44,9 @@
 
 ### 8. Sair
 ([x])Funciona
+
+### Outros
+([ ])Ajeitar README
+([ ])Ajeitar prints
+([ ])Ajustar terminal
 

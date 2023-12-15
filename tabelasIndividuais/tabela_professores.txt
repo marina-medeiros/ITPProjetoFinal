@@ -1,0 +1,5 @@
+4
+matricula|nome|forma��o|qtd_turmas|
+unsigned_int|string|string|int|
+2002001|Ant�nio Igor|Matem�tica|4|
+20020002|Paulo Mayer|Letras|3|

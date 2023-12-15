@@ -186,6 +186,7 @@ CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj: utils/criaTabelaArquivo.c \
 
 CMakeFiles/mylib.dir/utils/main.c.obj: utils/main.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/conio.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -337,6 +338,8 @@ utils/auxPesquisaNum.c:
 utils/contaLinhas.c:
 
 utils/criaTabelaArquivo.c:
+
+C:/MinGW/include/conio.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h:
 

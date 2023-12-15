@@ -9,7 +9,7 @@
 void criaLinha(){
     char nomeTabela[50];
     char path[60];
-    char aux[100];
+    char aux[200];
     char entrada[30];
     int c, qtdColunas;
 

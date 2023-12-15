@@ -15,7 +15,7 @@ void auxPesquisaNum(char *path, int qtdLinhas, int numColuna, int opcao, double 
 
     FILE *file = fopen(path, "r");
 
-    for(int i = 0; i < qtdLinhas-1; i++){
+    for(int i = 0; i < qtdLinhas; i++){
         fgets(linha, 200, file);
         if(i > 2){
             strcpy(pedaco, strtok(linha, "|"));
@@ -76,6 +76,6 @@ void auxPesquisaNum(char *path, int qtdLinhas, int numColuna, int opcao, double 
     }
 
     if(qtdValidados == 0){
-        printf("Ops! Não existem valores correpondentes à pesquisa nessa tabela!");
+        printf("Ops! Não existem valores correpondentes à pesquisa nessa tabela!\n");
     }
 }

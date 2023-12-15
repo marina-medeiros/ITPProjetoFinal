@@ -20,21 +20,20 @@ void criaTabela(){
     scanf("%[^\n]", novaTabela.nome);
 
     if(validaTabela(novaTabela.nome) == 1){
-        printf(">>>Ops! Já existe uma tabela com o nome %s!\n", novaTabela.nome);
+        printf("\n>>>Ops! Já existe uma tabela com o nome %s!\n", novaTabela.nome);
         return;
     }else{
-        printf(">>>A primeira coluna da tabela será a chave primaria, ela será do tipo inteiro sem sinal\n");
-        printf(">>>Insira o nome da coluna de chave primária: ");
+        printf("\n>>>A primeira coluna da tabela será a chave primaria, ela será do tipo inteiro sem sinal\n");
+        printf(">>>Insira o nome da coluna de chave primária\n");
 
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", arrayColunas[qtdColunas].nome);
 
-        strcpy(arrayColunas[qtdColunas].tipo, "unsigned int");
+        strcpy(arrayColunas[qtdColunas].tipo, "unsigned_int");
 
         qtdColunas++;
 
-        printf("----------------------------------------\n");
-        printf(">>>Agora, vamos cadastrar as demais colunas, conforme o exemplo: string nome\n");
+        printf("\n>>>Agora, vamos cadastrar as demais colunas, conforme o exemplo: string nome\n");
         printf(">>>Os tipos disponíveis são: INT, CHAR, FLOAT, DOUBLE e STRING\n");
         do{
             arrayColunas = realloc(arrayColunas, sizeof(Coluna) * (qtdColunas + 1));

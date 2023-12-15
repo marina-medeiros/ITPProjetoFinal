@@ -37,32 +37,32 @@ void listaDadosTabela(){
 
         fscanf(file, "%d", &qtdColunas);
 
-        printf(" |");
+        printf(" ");
 
         for(int i = 0; i < qtdLinhas; i++){
             fgets(linha, 200, file);
 
             if(i == 3){
-                for(int j = 0; j < (qtdColunas * 22 - 1); j++){
+                for(int j = 0; j < (qtdColunas * 22); j++){
                     printf("-");
                 }
-                printf("|\n |");
+                printf("\n ");
             }
 
             if(i > 0){
                 strcpy(formatar, strtok(linha, "|"));
-                printf("%20s |", linha);
+                printf("%20s |", formatar);
 
                 for(int k = 0; k < qtdColunas-1; k++){
                     strcpy(formatar, strtok(NULL, "|"));
                     printf("%20s |", formatar);
                 }
                 strcpy(formatar, strtok(NULL, "|"));
-                printf("%20s |", formatar);
+                printf("%20s ", formatar);
             }
         }
 
-        printf("\n");
+        fclose(file);
     }
     
 

@@ -2,10 +2,9 @@
 matricula|nome|curso|turma|ano_ingresso|nota|
 int|string|string|int|int|char|
 20230001|Marina Leite|TI|11|2023|A|
-20230002|Pedro Augusto|C&T|33|2022|B|
 20210003|Paula Lavigne|Pedagogia|4|2019|C|
 20230004|Ana Menezes|Direito|99|2022|D|
 20230005|Camilo Diaz|Jornalismo|54|2020|A|
 20230006|Rodrigo Pimenta|Medicina|107|2021|E|
-20230007|Leo Braulio|Design|21|2021|C|
 20230008|Clara Matheus|Letras|32|2012|A|
+20230009|Brad Pitt|Teatro|29|2019|F|

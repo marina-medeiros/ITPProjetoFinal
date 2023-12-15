@@ -5,7 +5,7 @@ typedef struct{
 
 typedef struct{
     char nome[30];
-    char tipo[10];
+    char tipo[20];
 }Coluna;
 
 typedef struct{

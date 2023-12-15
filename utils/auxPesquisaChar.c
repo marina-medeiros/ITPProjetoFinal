@@ -88,11 +88,12 @@ void auxPesquisaChar(char *path, int qtdLinhas, int numColuna, int opcao, char *
                 indiceMaisProximo = i;
             }
         }
+        printf("O valor mais próximo a %s na tabela é:\n", valor);
         printf("PK: %s   Valor: %s\n", valoresConvertidos[indiceMaisProximo][1].texto, valoresConvertidos[indiceMaisProximo][0].texto);
     break;
     }
 
     if(qtdValidados == 0){
-        printf(">>> Ops! Não existem valores correpondentes à pesquisa nessa tabela!");
+        printf(">>> Ops! Não existem valores correpondentes à pesquisa nessa tabela!\n");
     }
 }

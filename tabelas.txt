@@ -1,4 +1,2 @@
-teste1
 tabela_alunos
-tabela_prof
-tabela_funcionario
+tabela_professores

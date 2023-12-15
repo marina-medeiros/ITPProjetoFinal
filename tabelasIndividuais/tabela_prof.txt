@@ -1,4 +1,0 @@
-4
-cadastro|nome|curso|ano_entrada|
-int|string|string|int|
-123|jos‚|BTI|2002|

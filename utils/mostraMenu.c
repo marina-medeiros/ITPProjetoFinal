@@ -5,7 +5,7 @@
 #include "../heading/utils.h"
 
 void mostraMenu(){
-    printf("\n--------------------Menu--------------------\n");
+    printf("--------------------Menu--------------------\n");
     printf("Digite o número correspondente à operação:\n");
     printf("1. Criar uma tabela\n");
     printf("2. Listar todas as tabelas\n");
