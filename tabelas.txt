@@ -1,2 +1,4 @@
 tabela_alunos
 tabela_professores
+tabela_pessoa
+tabela_loja

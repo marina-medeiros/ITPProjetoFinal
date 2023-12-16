@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/functions.h"
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 void criaTabela(){
+    setlocale(LC_ALL, "Portuguese");
     Tabela novaTabela;
     int qtdColunas = 0;
     char entradaCol[40];
@@ -20,11 +22,11 @@ void criaTabela(){
     scanf("%[^\n]", novaTabela.nome);
 
     if(validaTabela(novaTabela.nome) == 1){
-        printf("\n>>>Ops! JÃ¡ existe uma tabela com o nome %s!\n", novaTabela.nome);
+        printf("\n>>>Ops! Já existe uma tabela com o nome %s!\n", novaTabela.nome);
         return;
     }else{
-        printf("\n>>>A primeira coluna da tabela serÃ¡ a chave primaria, ela serÃ¡ do tipo inteiro sem sinal\n");
-        printf(">>>Insira o nome da coluna de chave primÃ¡ria\n");
+        printf("\n>>>A primeira coluna da tabela será a chave primaria, do tipo inteiro sem sinal\n");
+        printf(">>>Insira o nome da coluna de chave primária\n");
 
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", arrayColunas[qtdColunas].nome);
@@ -34,7 +36,8 @@ void criaTabela(){
         qtdColunas++;
 
         printf("\n>>>Agora, vamos cadastrar as demais colunas, conforme o exemplo: string nome\n");
-        printf(">>>Os tipos disponÃ­veis sÃ£o: INT, CHAR, FLOAT, DOUBLE e STRING\n");
+        printf(">>>Os tipos disponíveis são: INT, CHAR, FLOAT, DOUBLE e STRING\n");
+        printf(">>>Digite 'FIM' para encerrar.\n");
         do{
             arrayColunas = realloc(arrayColunas, sizeof(Coluna) * (qtdColunas + 1));
 
@@ -44,7 +47,7 @@ void criaTabela(){
             strcpy(tipo, strtok(entradaCol, " "));
 
             if(strcmp(tipo, "FIM") != 0 && validaStringTipo(tipo) == 0){
-                printf(">>>Ops! O tipo inserido nÃ£o Ã© vÃ¡lido!\n");
+                printf(">>>Ops! O tipo inserido não é válido!\n");
                 return;
             }
             else{

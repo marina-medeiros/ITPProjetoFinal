@@ -3,6 +3,7 @@
 
 CMakeFiles/mylib.dir/funcs/apagaLinha.c.obj: funcs/apagaLinha.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -20,6 +21,7 @@ CMakeFiles/mylib.dir/funcs/apagaLinha.c.obj: funcs/apagaLinha.c \
 
 CMakeFiles/mylib.dir/funcs/apagaTabela.c.obj: funcs/apagaTabela.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -37,6 +39,7 @@ CMakeFiles/mylib.dir/funcs/apagaTabela.c.obj: funcs/apagaTabela.c \
 
 CMakeFiles/mylib.dir/funcs/criaLinha.c.obj: funcs/criaLinha.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -54,6 +57,7 @@ CMakeFiles/mylib.dir/funcs/criaLinha.c.obj: funcs/criaLinha.c \
 
 CMakeFiles/mylib.dir/funcs/criaTabela.c.obj: funcs/criaTabela.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -71,6 +75,7 @@ CMakeFiles/mylib.dir/funcs/criaTabela.c.obj: funcs/criaTabela.c \
 
 CMakeFiles/mylib.dir/funcs/listaDadosTabela.c.obj: funcs/listaDadosTabela.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -88,6 +93,7 @@ CMakeFiles/mylib.dir/funcs/listaDadosTabela.c.obj: funcs/listaDadosTabela.c \
 
 CMakeFiles/mylib.dir/funcs/listaTabelas.c.obj: funcs/listaTabelas.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -105,6 +111,7 @@ CMakeFiles/mylib.dir/funcs/listaTabelas.c.obj: funcs/listaTabelas.c \
 
 CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj: funcs/pesquisaValor.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -122,6 +129,7 @@ CMakeFiles/mylib.dir/funcs/pesquisaValor.c.obj: funcs/pesquisaValor.c \
 
 CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.obj: utils/auxPesquisaChar.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -139,6 +147,7 @@ CMakeFiles/mylib.dir/utils/auxPesquisaChar.c.obj: utils/auxPesquisaChar.c \
 
 CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj: utils/auxPesquisaNum.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -156,6 +165,7 @@ CMakeFiles/mylib.dir/utils/auxPesquisaNum.c.obj: utils/auxPesquisaNum.c \
 
 CMakeFiles/mylib.dir/utils/contaLinhas.c.obj: utils/contaLinhas.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -171,6 +181,7 @@ CMakeFiles/mylib.dir/utils/contaLinhas.c.obj: utils/contaLinhas.c \
 
 CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj: utils/criaTabelaArquivo.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -187,6 +198,7 @@ CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj: utils/criaTabelaArquivo.c \
 CMakeFiles/mylib.dir/utils/main.c.obj: utils/main.c \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/conio.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -202,6 +214,7 @@ CMakeFiles/mylib.dir/utils/main.c.obj: utils/main.c \
 
 CMakeFiles/mylib.dir/utils/mostraMenu.c.obj: utils/mostraMenu.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -217,6 +230,7 @@ CMakeFiles/mylib.dir/utils/mostraMenu.c.obj: utils/mostraMenu.c \
 
 CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj: utils/pagaStrlen.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -234,6 +248,7 @@ CMakeFiles/mylib.dir/utils/pagaStrlen.c.obj: utils/pagaStrlen.c \
 
 CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: utils/validaChavePrimaria.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -251,6 +266,7 @@ CMakeFiles/mylib.dir/utils/validaChavePrimaria.c.obj: utils/validaChavePrimaria.
 CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: utils/validaStringTipo.c \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/ctype.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -267,6 +283,7 @@ CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: utils/validaStringTipo.c \
 
 CMakeFiles/mylib.dir/utils/validaTabela.c.obj: utils/validaTabela.c \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -287,6 +304,10 @@ C:/MinGW/include/string.h:
 
 C:/MinGW/include/_mingw.h:
 
+utils/validaChavePrimaria.c:
+
+C:/MinGW/include/locale.h:
+
 utils/mostraMenu.c:
 
 funcs/apagaTabela.c:
@@ -301,11 +322,11 @@ C:/MinGW/include/msvcrtver.h:
 
 C:/MinGW/include/stdio.h:
 
-C:/MinGW/include/strings.h:
-
 utils/auxPesquisaChar.c:
 
 C:/MinGW/include/stdlib.h:
+
+C:/MinGW/include/strings.h:
 
 funcs/criaTabela.c:
 
@@ -342,8 +363,6 @@ utils/criaTabelaArquivo.c:
 C:/MinGW/include/conio.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h:
-
-utils/validaChavePrimaria.c:
 
 utils/validaStringTipo.c:
 

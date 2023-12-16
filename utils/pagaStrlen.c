@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/functions.h"
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 int pegaStrlen(char *path, int qtdLinhas, int qtdColunas){
+    setlocale(LC_ALL, "Portuguese");
     char linha[200];
     char formatar[40];
     int maiorStrlen = 0;
@@ -32,6 +34,7 @@ int pegaStrlen(char *path, int qtdLinhas, int qtdColunas){
     }
     
     printf("maiorStrlen %d\n", maiorStrlen);
+    fclose(file);
     return maiorStrlen;
 
 }

@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/functions.h"
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 void auxPesquisaChar(char *path, int qtdLinhas, int numColuna, int opcao, char *valor){
+    setlocale(LC_ALL, "Portuguese");
     char linha[200];
     char pedaco[40];
     char *aux;
@@ -96,4 +98,6 @@ void auxPesquisaChar(char *path, int qtdLinhas, int numColuna, int opcao, char *
     if(qtdValidados == 0){
         printf(">>> Ops! Não existem valores correpondentes à pesquisa nessa tabela!\n");
     }
+    
+    fclose(file);
 }

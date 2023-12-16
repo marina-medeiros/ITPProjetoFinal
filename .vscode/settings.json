@@ -61,6 +61,7 @@
     "stdio.h": "c",
     "utils.h": "c",
     "definitions.h": "c",
-    "stdbool.h": "c"
+    "stdbool.h": "c",
+    "string.h": "c"
   }
 }

@@ -1,0 +1,3 @@
+4
+idLoja|nome|qtd_funcionarios|aluguel|
+unsigned_int|string|int|float|

@@ -1,10 +1,13 @@
 6
 matricula|nome|curso|turma|ano_ingresso|nota|
 int|string|string|int|int|char|
-20230001|Marina Leite|TI|11|2023|A|
-20210003|Paula Lavigne|Pedagogia|4|2019|C|
 20230004|Ana Menezes|Direito|99|2022|D|
-20230005|Camilo Diaz|Jornalismo|54|2020|A|
 20230006|Rodrigo Pimenta|Medicina|107|2021|E|
 20230008|Clara Matheus|Letras|32|2012|A|
 20230009|Brad Pitt|Teatro|29|2019|F|
+20230011|Mariane Costa|BTI|109|2023|B|
+20230012|Joana Marques|Direito|109|2017|A|
+20230001|Marina Leite|BTI|99|2023|A|
+202300123|Marcos Silva|Medicina|180|2015|D|
+20240009|Pedro Rafael|C&T|22|2017|F|
+111111111|Pedro Paulo|Teatro|23|2019|D|

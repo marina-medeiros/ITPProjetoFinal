@@ -2,7 +2,7 @@
 #define FUNCOES
 
 void criaTabela();
-void listaTabelas(); //lista todas as tabelas existentes
+void listaTabelas();
 void criaLinha();
 void listaDadosTabela();
 void pesquisaValor();

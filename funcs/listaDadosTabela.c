@@ -1,17 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/functions.h"
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 void listaDadosTabela(){
+    setlocale(LC_ALL, "Portuguese");
     char nomeTabela[30];
     char path[40];
     char formatar[50];
     char linha[200];
     int c, qtdLinhas, qtdColunas, maiorStrlen;
+    
+    printf(">>>Aqui está a lista de tabelas:\n");
+
+    listaTabelas();
 
     printf(">>>Insira o nome da tabela: ");
 

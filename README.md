@@ -27,15 +27,18 @@ Será solicitado o nome da coluna que será a chave primária.
 Exemplo:
 
 ```
-tabela_funcionarios
+>>>Insira o nome da tabela: tabela_funcionarios
+
+>>>A primeira coluna da tabela será a chave primaria, do tipo inteiro sem sinal
+>>>Insira o nome da coluna de chave primária
+cpf
+
+>>>Agora, vamos cadastrar as demais colunas, conforme o exemplo: string nome
+>>>Os tipos disponíveis são: INT, CHAR, FLOAT, DOUBLE e STRING
+>>>Digite 'FIM' para encerrar.
 string nome
-int cpf
 float salario
 FIM
-----------------------------
-Qual será a chave primária?
-----------------------------
-cpf
 
 ```
 
@@ -46,18 +49,14 @@ O sistema listará todas as tabelas existentes, informando seus nomes e quantida
 Exemplo de saída:
 
 ```
+tabela_alunos
+tabela_professores
 tabela_funcionarios
-3 colunas || 7 linhas
-
-tabela_cargos
-2 colunas || 3 linhas
-
-tabela_produtos
-8 colunas || 12 linhas
 
 ```
 
 ### 3. Criar uma nova linha na tabela
+O sistema exibe as tabelas existentes.
 O usuário informa o nome da tabela.
 O sistema imprimirá o nome e tipo de cada uma das colunas.
 O usuário deverá digitar um valor para cada uma das colunas.
@@ -66,85 +65,129 @@ Caso o usuário use uma chave primária repetida ou inválida, será emitida uma
 Exemplo de um caso com erro:
 
 ```
+>>>Aqui está a lista de tabelas:
+tabela_alunos
+tabela_professores
 tabela_funcionarios
-string nome || int cpf || float salario
-Pedro Paulo
-12345678910
-2500.50
 
----------------------------------------------------------------------------------
-Erro! Já existe uma linha com essa chave primária. O registro não será inserido.
----------------------------------------------------------------------------------
+>>>Insira o nome da tabela: tabela_funcionarios
+>>>Insira um valor de tipo inteiro sem sinal para a chave primária 'cpf'
+12345678910
+>>>Insira um valor de tipo string para a coluna 'nome'
+Pedro Paulo
+>>>Insira um valor de tipo float para a coluna 'salario'
+1250.80
 
 ```
 
 ### 4. Listar todos os dados de uma tabela
+O sistema exibe as tabelas existentes.
 O usuário informa o nome da tabela.
 
 Exemplo:
 
 ```
-tabela_funcionarios
-string nome || int cpf || float salario
-Camilo Sinf || 12345678910 || 2500.50
-Kleber Filho || 55344411211 || 9800.00
-Maria Maria || 12398765400 || 4460.88
+>>>Aqui está a lista de tabelas:
+tabela_alunos
+tabela_professores
+tabela_pessoa
+tabela_loja
+tab_funcionarios
+
+>>>Insira o nome da tabela:tabela_funcionarios
+                  cpf |                nome |             salario |
+         unsigned_int |              string |               float |
+ ------------------------------------------------------------------
+          12345678910 |               Ramon |             5400.20 |                   
+          23456789101 |               Doris |             9823.44 |   
 
 ```
 
 ### 5. Pesquisar valor em uma tabela
+O sistema exibe as tabelas existentes.
 O usuário informa o nome da tabela.
 O sistema deverá fornecer as colunas disponíveis na tabela e o usuário deverá selecionar uma delas.
 O sistema deverá solicitar o valor para pesquisar, disponibilizando algumas opções.
+O sistema retornará todos os valores da coluna escolhida que se encaixam na pesquisa, juntamente com a chave primária da linha desses valores.
 
 Exemplo:
 
 ```
+>>>Aqui está a lista de tabelas:
+tabela_alunos
+tabela_professores
 tabela_funcionarios
------------------------------------------------
-As colunas disponíveis são:
-string nome || int cpf || float salario
------------------------------------------------
 
-salario
------------------------------------------------
-Informe um valor e escolha uma das opções:
->: valores maiores que o valor informado
->=: valores maiores ou iguais que o valor informado
-=: valores iguais o valor informado
-<: valores menores que o valor informado
-<=: valores menores ou iguais que o valor informado
-p: valores próximos ao valor informado (se aplica apenas se a coluna for do tipo string)
------------------------------------------------
+>>>Insira o nome da tabela: tab_funcionarios
+>>>As colunas disponí­veis são:
 
-4000
->
------------------------------------------------
-string nome || int cpf || float salario
-Kleber Filho || 55344411211 || 9800.00
-Maria Maria || 12398765400 || 4460.88
------------------------------------------------
+>>>  1. : 'cpf' de tipo 'unsigned_int'
+>>>  2. : 'nome' de tipo 'string'
+>>>  3. : 'salario' de tipo 'float'
+
+>>>Insira o número da coluna em que você quer pesquisar
+3      
+
+>>>A coluna escolhida foi: 'salario' de tipo 'float'
+
+>>>Insira o valor a ser pesquisado
+9000
+
+OpÃ§Ãµes de pesquisa:
+ 1. Valores maiores que 9000
+ 2. Valores maiores ou iguais a 9000
+ 3. Valores iguais a 9000
+ 4. Valores menores que 9000
+ 5. Valores menores ou iguais a 9000
+ 6. Valores prÃ³ximos a 9000
+
+>>>Insira o número da opção de pesquisa
+1
+
+>>>Resultado da pesquisa:
+PK:23456789101 Valor:9823,00
 
 ```
 
 ### 6. Apagar uma linha
-O usuário deve informar o nome da tabela e a chave primária da tupla a ser apagada.
+O sistema exibe as tabelas existentes.
+O usuário escolhe uma tabela.
+O sistema lista os dados da tabela escolhida.
+O usuário informa a chave primária da tupla a ser apagada.
 
 Exemplo:
 
-```
-tabela_funcionarios
-12398765400
+``` 
+>>>Aqui está a lista de tabelas:
+tabela_alunos
+tabela_professores
+tab_funcionarios
+
+>>>Insira o nome da tabela que contÃ©m a linha a ser apagada:tab_funcionarios
+>>>Aqui está a tabela escolhida:
+                  cpf |                nome |             salario |
+         unsigned_int |              string |               float |
+ ------------------------------------------------------------------
+          12345678910 |               Ramon |             5400.20 |
+          23456789101 |               Doris |             9823.44 |
+ 
+>>>Insira o valor da chave primária da linha a ser apagada: 12345678910
 
 ```
 
 ### 7. Apagar uma tabela
-O usuário deve informar o nome da tabela a ser apagada.
+O sistema exibe as tabelas existentes.
+O usuário escolhe a tabela a ser apagada.
 
 Exemplo:
 
-```
+``` 
+>>>Aqui está a lista de tabelas:
+tabela_alunos
+tabela_professores
 tabela_funcionarios
+
+>>>Insira o nome da tabela a ser apagada:tabela_funcionarios
 
 ```
 

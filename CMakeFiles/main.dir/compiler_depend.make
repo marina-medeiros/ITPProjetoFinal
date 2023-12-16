@@ -4,6 +4,7 @@
 CMakeFiles/main.dir/utils/main.c.obj: utils/main.c \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/conio.h \
+  C:/MinGW/include/locale.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/include/stdio.h \
@@ -29,6 +30,8 @@ utils/main.c:
 C:/MinGW/include/string.h:
 
 C:/MinGW/include/_mingw.h:
+
+C:/MinGW/include/locale.h:
 
 C:/MinGW/include/conio.h:
 

@@ -9,4 +9,5 @@ CMakeFiles/mylib.dir/utils/criaTabelaArquivo.c.obj: \
  c:\mingw\include\string.h c:\mingw\include\strings.h \
  c:\mingw\include\wchar.h \
  c:\users\marin\onedrive\documents\itpprojetofinal\heading\utils.h \
- c:\users\marin\onedrive\documents\itpprojetofinal\heading\definitions.h
+ c:\users\marin\onedrive\documents\itpprojetofinal\heading\definitions.h \
+ c:\mingw\include\locale.h

@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 int validaChavePrimaria(char *nomeTabela, char *pkEntrada){
+    setlocale(LC_ALL, "Portuguese");
     char path[40];
     char linha[200];
     char pkLida[30];
@@ -33,5 +35,6 @@ int validaChavePrimaria(char *nomeTabela, char *pkEntrada){
         }
     }
 
+    fclose(file);
     return 1; //A chave ainda não foi registrada
 }

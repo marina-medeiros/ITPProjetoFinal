@@ -8,6 +8,6 @@ CMakeFiles/mylib.dir/utils/validaStringTipo.c.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
  c:\mingw\include\string.h c:\mingw\include\strings.h \
  c:\mingw\include\wchar.h c:\mingw\include\ctype.h \
- c:\mingw\include\wctype.h \
+ c:\mingw\include\wctype.h c:\mingw\include\locale.h \
  c:\users\marin\onedrive\documents\itpprojetofinal\heading\utils.h \
  c:\users\marin\onedrive\documents\itpprojetofinal\heading\definitions.h

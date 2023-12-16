@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 int validaTabela(char *nomeTabela){
+    setlocale(LC_ALL, "Portuguese");
     int qtdLinhas = contaLinhas("tabelas.txt");
     char aux[50];
     

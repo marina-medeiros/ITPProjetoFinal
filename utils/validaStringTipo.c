@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
-#include<ctype.h>
+#include <ctype.h>
+#include <locale.h>
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 int validaStringTipo(char *tipo){
+    setlocale(LC_ALL, "Portuguese");
     for(int i = 0; i < strlen(tipo); i++){
         tipo[i] = tolower(tipo[i]);
     }

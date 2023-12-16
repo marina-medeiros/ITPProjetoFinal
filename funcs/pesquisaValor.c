@@ -1,18 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/functions.h"
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 void pesquisaValor(){
+    setlocale(LC_ALL, "Portuguese");
     char nomeTabela[50];
     char path[60];
     char aux[100];
     int c, qtdColunas, colunaEscolhida, opcaoPesquisa;
     char valor[30];
     char stringPesquisa[30], stringColEscolhida[30];
+    
+    printf(">>>Aqui está a lista de tabelas:\n");
+
+    listaTabelas();
 
     printf(">>>Insira o nome da tabela: ");
 
@@ -122,7 +128,7 @@ void pesquisaValor(){
 
     printf("\n>>>Resultado da pesquisa:\n");
     if(validaStringTipo(colunasTabela[colunaEscolhida-1].tipo) == 1){
-        auxPesquisaNum(path, qtdLinhas, colunaEscolhida, opcaoPesquisa, floatValor);
+        auxPesquisaNum(path, qtdLinhas, colunaEscolhida, opcaoPesquisa, floatValor, colunasTabela[colunaEscolhida-1].tipo);
     }
     if(validaStringTipo(colunasTabela[colunaEscolhida-1].tipo) == 2){
         auxPesquisaChar(path, qtdLinhas, colunaEscolhida, opcaoPesquisa, valor);

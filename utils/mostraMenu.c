@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/utils.h"
 
 void mostraMenu(){
+    setlocale(LC_ALL, "Portuguese");
     printf("--------------------Menu--------------------\n");
-    printf("Digite o nÃºmero correspondente Ã  operaÃ§Ã£o:\n");
+    printf("Digite o número correspondente à operação:\n");
     printf("1. Criar uma tabela\n");
     printf("2. Listar todas as tabelas\n");
     printf("3. Criar uma nova linha na tabela\n");

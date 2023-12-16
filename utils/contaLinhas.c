@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 int contaLinhas(char *arquivo){
+    setlocale(LC_ALL, "Portuguese");
     int qtdLinhas = 0;
     char aux;
 
@@ -21,5 +23,6 @@ int contaLinhas(char *arquivo){
         }
     }
     
+    fclose(file);
     return qtdLinhas;
 }

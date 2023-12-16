@@ -1,15 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "../heading/functions.h"
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
 
 void apagaTabela(){
+    setlocale(LC_ALL, "Portuguese");
     char nomeTabela[50];
     char path[60];
     int c, qtdLinhas;
+
+    printf(">>>Aqui está a lista de tabelas:\n");
+
+    listaTabelas();
 
     printf(">>>Insira o nome da tabela: ");
 
@@ -38,7 +44,7 @@ void apagaTabela(){
         FILE *tabelas = fopen("tabelas.txt", "r");
 
         if(tabelas == NULL){
-            printf(">>>Erro ao abrir arquivo tabelas na função 'apagaTabela'\n");
+            printf(">>>Erro ao abrir arquivo tabelas no inicio da função 'apagaTabela'\n");
             return;
         }
 

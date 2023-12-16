@@ -2,8 +2,10 @@
 #include <string.h>
 #include "../heading/utils.h"
 #include "../heading/definitions.h"
+#include <locale.h>
 
 void criaTabelaArquivo(Tabela novaTabela, Coluna *arrayColunas){
+    setlocale(LC_ALL, "Portuguese");
     FILE *inputs = fopen("tabelas.txt", "a"); 
 
     if(inputs == NULL){
