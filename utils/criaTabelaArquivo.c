@@ -19,6 +19,7 @@ void criaTabelaArquivo(Tabela novaTabela, Coluna *arrayColunas){
     /*
         Cada tabela vai ter um arquivo individual cujo nome será o nome da tabela.
         Esse arquivo conterá:
+            -uma linha com a quantidade de colunas
             -Uma linha com os nomes das colunas
             -Uma linha com os tipos de cada coluna
             -As seguintes linhas, cada uma correspondendo a um registro

@@ -22,11 +22,11 @@ void criaTabela(){
     scanf("%[^\n]", novaTabela.nome);
 
     if(validaTabela(novaTabela.nome) == 1){
-        printf("\n>>>Ops! J· existe uma tabela com o nome %s!\n", novaTabela.nome);
+        printf("\n>>>Ops! J√° existe uma tabela com o nome %s!\n", novaTabela.nome);
         return;
     }else{
-        printf("\n>>>A primeira coluna da tabela ser· a chave primaria, do tipo inteiro sem sinal\n");
-        printf(">>>Insira o nome da coluna de chave prim·ria\n");
+        printf("\n>>>A primeira coluna da tabela ser√° a chave primaria, do tipo inteiro sem sinal\n");
+        printf(">>>Insira o nome da coluna de chave prim√°ria\n");
 
         while ((c = getchar()) != '\n' && c != EOF) {}
         scanf("%[^\n]", arrayColunas[qtdColunas].nome);
@@ -36,7 +36,7 @@ void criaTabela(){
         qtdColunas++;
 
         printf("\n>>>Agora, vamos cadastrar as demais colunas, conforme o exemplo: string nome\n");
-        printf(">>>Os tipos disponÌveis s„o: INT, CHAR, FLOAT, DOUBLE e STRING\n");
+        printf(">>>Os tipos dispon√°veis s√£o: INT, CHAR, FLOAT, DOUBLE e STRING\n");
         printf(">>>Digite 'FIM' para encerrar.\n");
         do{
             arrayColunas = realloc(arrayColunas, sizeof(Coluna) * (qtdColunas + 1));
@@ -47,7 +47,7 @@ void criaTabela(){
             strcpy(tipo, strtok(entradaCol, " "));
 
             if(strcmp(tipo, "FIM") != 0 && validaStringTipo(tipo) == 0){
-                printf(">>>Ops! O tipo inserido n„o È v·lido!\n");
+                printf(">>>Ops! O tipo inserido n√£o √° v√°lido!\n");
                 return;
             }
             else{

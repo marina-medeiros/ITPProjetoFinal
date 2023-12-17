@@ -1,7 +1,6 @@
 6
 matricula|nome|curso|turma|ano_ingresso|nota|
 int|string|string|int|int|char|
-20230004|Ana Menezes|Direito|99|2022|D|
 20230006|Rodrigo Pimenta|Medicina|107|2021|E|
 20230008|Clara Matheus|Letras|32|2012|A|
 20230009|Brad Pitt|Teatro|29|2019|F|
@@ -11,3 +10,4 @@ int|string|string|int|int|char|
 202300123|Marcos Silva|Medicina|180|2015|D|
 20240009|Pedro Rafael|C&T|22|2017|F|
 111111111|Pedro Paulo|Teatro|23|2019|D|
+201813140019|Maria Antonia|Pedagogia|43|2022|A|
